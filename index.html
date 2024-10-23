@@ -16,17 +16,17 @@
 </head>
 <body>
     <h1>Mi primera página HTML</h1>
-    <h2>Índice de contenidos</h2>
+    <h2 id="indice">Índice de contenidos</h2>
 
     <ul>
-        <li><a href="">HTML</a></li>
-        <li><a href="">La primera web</a></li>
-        <li><a href="">Bibliografía y enlaces</a></li>
+        <li><a href="#seccion1">HTML</a></li>
+        <li><a href="#seccion2">La primera web</a></li>
+        <li><a href="#seccion3">Bibliografía y enlaces</a></li>
     </ul>
     <br>
     <hr>
 
-    <h2>HTML</h2>
+    <h2 id="seccion1">HTML</h2>
     <p>El laboratorio del CERN en Suiza es uno de los centros científicos más importantes del planeta, 
         y como tal, estaba muy bien conectado con otras instituciones similares. Fue uno de los primeros 
         en utilizar <a href="https://es.wikipedia.org/wiki/ARPANET" target="_blank">ARPANET</a>, la predecesora de internet.</p>
@@ -49,7 +49,7 @@
     <hr>
     <br>
 
-    <h2>La primera Web</h2>
+    <h2 id="seccion2">La primera Web</h2>
     <p>Tim Berners-Lee sabía de qué iba la cosa de la WWW, pero también era consciente de que la mayoría de usuarios no entendía mucho de informática, 
         y decidió abrir la primera página web de la historia para explicar cómo funcionaba. Esa página aún existe (estuvo desactivada unos años, pero el W3C la ha restaurado),
         aunque no tiene exactamente la misma apariencia que la primera versión, diseñada en noviembre de 1990. En este enlace,
@@ -63,7 +63,7 @@
     <br>
 
     
-    <h2>Bibliografía y enlaces</h2>
+    <h2 id="seccion3">Bibliografía y enlaces</h2>
 
     <ol>
         <li>Historia de la web</li>
@@ -84,6 +84,6 @@
 
     <p><strong>Autor</strong>: Izquierdo Ventura, Izan. <br> <strong>Actividad</strong>: ASIX1M4UF1A4-Mi primera página HTML</p>
 
-    <a href="">Volver al índice de contenidos</a>
+    <a href="#indice">Volver al índice de contenidos</a>
 </body>
 </html>
